@@ -1,0 +1,86 @@
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f1ed; /* Warna moka */
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .cv-container {
+    background-color: #fff;
+    width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  .header .info {
+    flex: 1;
+  }
+
+  .header .info h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #5c4033; /* Warna coklat tua */
+  }
+
+  .header .info p {
+    margin: 5px 0;
+    color: #8b6f47; /* Warna moka gelap */
+  }
+
+  .section {
+    display: flex;
+    gap: 20px;
+  }
+
+  .left, .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .section-box {
+    background-color: #f7f3ef; /* Warna moka terang */
+    border-radius: 10px;
+    padding: 15px;
+  }
+
+  .section-title {
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #5c4033; /* Warna coklat tua */
+    border-bottom: 2px solid #8b6f47;
+    padding-bottom: 5px;
+  }
+
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #555;
+  }
+
+  ul {
+    padding-left: 20px;
+    color: #5c4033;
+  }
